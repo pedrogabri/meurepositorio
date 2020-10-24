@@ -1,0 +1,199 @@
+
+.container-principal{
+    height: 700px;
+}
+
+.container-login{
+	width: 30%;
+	margin-top: 100px;
+	margin-bottom: 350px;
+	padding:10px;
+	border: 1px solid #1b1b12;
+	border-radius: 20px;
+}
+
+.div-contato {
+    background: #1b1b12;
+}
+
+.lbl-titulo{
+    width: 100%;
+    color:#b68809;
+    font-weight: bold;
+}
+
+.lbl-dado{
+    width: 100%;
+    color: white;
+}
+
+footer{
+    text-align: center;
+    height: 70px;
+    background-color: #eeedf3;
+}
+
+.lbl-footer{
+    margin-top: 20px;
+}
+
+.container-funcionarios{
+    min-height: 700px;
+    width: 500px;
+    /*border: 1px solid #1b1b12;*/
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.container-funcionario{
+    width: 350px;
+    border: 1px solid #1b1b12;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.container-projetos{
+    min-height: 700px;
+    width: 90%;
+    /*border: 1px solid #1b1b12;*/
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.container-projeto{
+    width: 500px;
+    border: 1px solid #1b1b12;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.form-titulo{
+    background-color: #eeedf3;
+    text-align: center;
+    border: 1px solid #1b1b12;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.form-tabela{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.form-novo{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    text-align: right;
+}
+
+.badge-botao{
+    padding:8px;
+}
+
+.tabela-controle{
+    padding: 3px;
+    width: 10px;
+}
+
+.tabela-controle > a{
+    color:#1b1b12;
+}
+
+
+.tabela-controle > a:hover{
+    color:forestgreen;
+}
+
+.btn-width{
+    width: 49%;
+}
+
+.btn-voltar-width{
+    width: 99%;
+}
+
+.btn-entrar{
+	width: 100%;
+}
+
+input{
+    text-align: center;
+}
+
+select{
+    text-align-last: center;
+}
+
+
+.alert{
+    margin-top: 15px;
+    text-align: center;
+}
+
+.container-base{
+    min-height: 700px;
+}
+
+.modal-header{
+	background-color: ##cc1e1e;
+	color: white;
+}
+
+.list-group{
+	text-align: center;
+}
+
+.cl-dark{
+	color: white;
+}
+
+.label-lembrar{
+	font-size: small;	
+}
+
+.navbar-right{
+	width: 100%;
+	text-align: right;
+}
+
+.btn-sair{
+	background-color: #1b1b12;
+	color:white;
+}
+
+.div-login{
+	width: 100%;
+	text-align: right;
+	padding-right: 5px;
+}
+
+@media screen and (max-width: 500px){
+    .container-funcionarios{
+        width: 300px;
+    }
+
+    .form-tabela{
+        overflow-x: scroll;
+    }
+}
+
+
+@media screen and (max-width:800px){
+	.container-projetos{
+		width: 99%;
+	}
+	.container-projeto {
+    	width: 97%;
+	}	
+}
+
+
